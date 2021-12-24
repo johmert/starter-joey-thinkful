@@ -1,0 +1,43 @@
+/* Mobile First Design */
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #0B1C51;
+    color: white;
+}
+
+header h1 {
+    font-size: 52px;
+    margin: 10px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Desktop Design */
+@media all and (min-width: 800px){
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+}
